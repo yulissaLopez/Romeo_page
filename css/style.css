@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Concert+One&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+.title {
+    font-family: "Pacifico", cursive;
+}
+
+.btn:hover{
+    background-color: white !important; /* Asegura que el fondo sea blanco al hacer clic */
+    color: black !important; /* Asegura que el texto sea negro al hacer clic */
+}
+
+.btn {
+    border-radius: 50%; /* Hace que el botón sea redondo */
+}
+
+.round-class{
+    border-radius: 25px;
+}
+
+.main-title{
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fixed-container{
+    height: 70vh;
+    background-color: #f8f9fa; 
+}
+
+@media (max-width: 768px) {
+    .fixed-container {
+        height: auto; /* Se elimina la altura fija en pantallas pequeñas */
+    }
+}
+
+
+.square{
+    width: 300px; /* Ancho deseado del contenedor */
+    height: 300px; /* Altura deseada del contenedor */
+    overflow: hidden; /* Oculta cualquier contenido que se desborde */
+    position: relative; /* Para permitir la posición absoluta de la imagen */
+    border: 1px solid black;
+
+}
+
+.square img {
+   width: 100%;
+   position: absolute;
+}
+
+.footer{
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.border-white-p {
+    border: 5px solid #f8f9fa; 
+    border-radius: 25px;
+    background-color: white;
+}
+
+.bg-white-p {
+    background-color: #f8f9fa; 
+    border-radius: 25px;
+    height: 40vh;
+   
+}
+
+.no-padding {
+    padding-right: 0 !important; 
+    padding-left: 0 !important; 
+}
+
+
+
